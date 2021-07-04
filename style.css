@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color:red ;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{
+        box-shadow: 3px 3px 100px #22A618; 
+    }
+    to{
+        box-shadow: 3px 3px 100px #6E18AA;
+    }
+}
+
